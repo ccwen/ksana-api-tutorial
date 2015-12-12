@@ -1,4 +1,4 @@
-console.log("lesson 2-3, dual filter");
+console.log("lesson 4-1, dual filter");
 var ksa=require("ksana-simple-api");
 
 var title="玄奘";
