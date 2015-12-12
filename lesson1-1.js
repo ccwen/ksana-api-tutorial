@@ -1,4 +1,5 @@
-console.log("lesson -11, fetch a page");
+console.log("lesson 1-1, fetch a page");
+
 var ksa=require("ksana-simple-api");
 console.log("db: name of database");
 console.log("uti: unique text identifier");

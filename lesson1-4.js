@@ -1,7 +1,7 @@
 console.log("lesson 1-4, multiple keywords");
 var ksa=require("ksana-simple-api");
 
-ksa.fetch({db:"cbeta",uti:["T01.0001.0001a"],q:"阿含 誦"},function(err,res){
+ksa.fetch({db:"cbeta",uti:"T01.0001.0001a",q:"阿含 誦"},function(err,res){
 	var out=ksa.renderHits(res[0].text,res[0].hits,function(obj,text){
 		return obj.className?'<span class="'+obj.className+'">'+text+"</span>":text;
 	}).join("");
