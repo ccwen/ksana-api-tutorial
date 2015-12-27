@@ -1,6 +1,6 @@
 {
   "name": "ksana-api-tutorial",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "ksana api tutorial",
   "main": "index.html",
   "single-instance":true,
@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/ksanaforge/ksana-api-tutorial",
   "dependencies": {
-    "ksana-analyzer": "git+https://github.com/ksanaforge/ksana-analyzer.git",
-    "ksana-database": "git+https://github.com/ksanaforge/ksana-database.git",
-    "ksana-indexer": "git+https://github.com/ksanaforge/ksana-indexer.git",
-    "ksana-jsonrom": "git+https://github.com/ksanaforge/ksana-jsonrom.git",
-    "ksana-search": "git+https://github.com/ksanaforge/ksana-search.git",
-    "ksana-simple-api": "git+https://github.com/ksanaforge/ksana-simple-api.git"
+    "ksana-analyzer": "^1.5.0",
+    "ksana-database": "^1.5.0",
+    "ksana-indexer": "^1.5.0",
+    "ksana-jsonrom": "^1.5.0",
+    "ksana-search": "^1.5.0",
+    "ksana-simple-api": "^1.5.0"
   }
 }
