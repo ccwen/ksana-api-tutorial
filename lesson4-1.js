@@ -7,5 +7,6 @@ var q="淨土";
 //q="ཅན"
 
 ksa.filter({db:"cbeta",q:q,regex:title,field:"mulu"},function(err,items){
-	console.log(items);
+	//console.log(items.map(function(item){return item.uti}));
+	console.log(items)
 });
